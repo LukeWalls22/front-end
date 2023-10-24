@@ -3,23 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
 </head>
 
 <header>
 <img src="/24.10 - Seconda lezione/img/logo.svg" alt="Logo Epicode School">
 <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
 <nav>
-    
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ARTICOLI</a></li>
+        <li><a href="#">LAVORA CON NOI</a></li>
+    </ul>
 </nav>
 </header>
 
 <main>
 
+    <article>
+        <h1>Come creare un Template per i post</h1>
+        <p>di Mario Rossi - Pubblicato il 25-10-2020</p>
+
+
+        <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine</p>
+
+        <p>Le varie aree saranno quindi suddivise in:
+            <ul>
+                <li>Contenuti di intestazione del tag <code>&ltheader&gt</code></li>
+                <li>Contenuti centrali variabili del tag <code>&ltmain&gt (corpo principale)</code></li>
+                <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&ltfooter&gt</code></li>
+            </ul>
+        </p>
+        
+        <h2>Formattazione del codice</h2>
+
+        <p>
+            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+            <ol>
+                <li>Progettare il markup assegnando ad ogni specifico testo il tag appropiato</li>
+                <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                <li>Applicare gli stili CSS</li>
+            </ol>
+        </p>
+
+        <p>L'applicazione di stili CSS è cresciuta negli lanni fino a raggiungere la diffusione pressoché totale.</p>
+
+        <table>
+            <thead>Diffusione dei CSS</thead>
+            <tbody>
+                <tr>
+                    <td>Anno</td>
+                    <td><code>%</code> di utilizzo</td>
+                    <td>Supporto browsers</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>20<code>%</code></td>
+                    <td>17<code>%</code></td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>35<code>%</code></td>
+                    <td>22<code>%</code></td>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td>45<code>%</code></td>
+                    <td>42<code>%</code></td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>80<code>%</code></td>
+                    <td>51<code>%</code></td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>100<code>%</code></td>
+                    <td>76<code>%</code></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Un test di validazione potrà essere fatto tramite il tool online <a href="#">-LINK ESTERNO-</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QiYgE7Hceks?si=h99aEXju7SD52daL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </article>
+
+    <form method="post" action="paginadelserver.php" autocomplete="on">
+        <label for="miamail">Inserisci l'email:</label>
+        <input type="email" name="email" id="miamail" autofocus placeholder="mail@esempio.it" required>
+        <!--Prova facoltativa per Type diverso, provato con Number, corretto con TEL-->
+        <label for="wanum">Ricevi news anche su Whatsapp:</label>
+        <input type="tel" name="mobile" id="wanum" placeholder="+39 1234567893">
+        <!--Fine prova-->
+        <button type="submit">Iscriviti!</button>
+    </form>
+
+    <aside>
+        <h2>Articoli correlati</h2>
+        <div>
+            <a href="#">Validare il codice HTML</a>
+            <p>Categoria: develop</p>
+            <p>Data: 18-9-2020</p>
+        </div>
+        <div>
+            <a href="#">Correggere la sintassi</a>
+            <p>Categoria: develop</p>
+            <p>Data: 16-9-2020</p>
+        </div>
+        <div>
+            <a href="#">Meno Kb nellaa pagina</a>
+            <p>Categoria: ottimizzazione</p>
+            <p>Data: 30-9-2020</p>
+        </div>
+    </aside>
+    
 </main>
 
-<footer>
+<hr>
 
+<footer>
+    <p>Blog Epicode &copy;2023</p>
+    <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 0011223 <br> info@epicode.school <a href="#">-LINK EMAIL-</a></address>
 </footer>
 
 </html>
