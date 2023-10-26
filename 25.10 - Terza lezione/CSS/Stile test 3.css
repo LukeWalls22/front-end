@@ -15,22 +15,19 @@ header div {
 }
 
 header div a {
-    color: #004d4c;
     text-decoration: none;
     font-weight: bold;
 }
 
-article {
-    width: 70%;
+body {
+    width: 50%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 article div figure img {
     width: 100%;
     border-radius: 10px
-}
-
-main {
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main article div h1 {
@@ -66,4 +63,8 @@ h3 {
 
 li {
     line-height: 40px;
+}
+
+a {
+    color: #004d4c;
 }
