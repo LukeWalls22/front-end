@@ -1,0 +1,262 @@
+/* IMPOSTAZIONI GENERALI */
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../img/sfondo.png);
+    background-position: center;
+    background-position-y: 400px;
+    line-height: 1.5em;
+}
+
+header, main, aside, footer {
+    margin: 1em 1em;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 8vw;
+    line-height: 45px;
+    margin-bottom: 4vw;
+    letter-spacing: -2px;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 2em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a {
+    color: #0099bb;
+    font-weight: 600;
+}
+
+code {
+    background-color: rgb(219, 219, 219);
+    border: solid rgb(180, 180, 180) 1px;
+    border-radius: 7px;
+    padding: 0 1px;
+}
+
+
+
+/* HEADER */
+
+header {
+    background: rgb(0,103,136);
+    background: linear-gradient(0deg, rgba(0,103,136,1) 0%, rgba(46,177,208,1) 100%);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 4.5vw;
+    padding: 1em 0;
+}
+
+header div img {
+    width: 62%;
+    height: auto;
+    margin: 1em 0;
+}
+
+header p {
+    margin: 4vw 0;
+}
+
+header nav ul li {
+    margin: 0 0 1.8vw 0;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+strong {
+    color: #af1c69;
+    font-weight: 600;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+    padding: 2em 1em;
+    box-shadow: 1px 4px 3px 1.3px #888888;
+    line-height: 25px;
+    font-size: 4vw;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+p i, p span, #rossi {
+    color: rgb(167, 167, 167);
+    margin: 1em 0;
+}
+
+#listul {
+    margin: 2em;
+}
+
+#accadue {
+    margin-top: 0em;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 20px;
+}
+
+section {
+    width: 100%;
+    background-color: #e0e2e3;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 1em 0 0.3em 0;
+}
+
+section p {
+    text-align: justify;
+    padding: 0 1em;
+}
+
+/* TABELLE */
+
+table {
+    width: 100%;
+}
+
+caption {
+    font-weight: 600;
+    font-style: italic;
+}
+
+th {
+    background-color: #3466cb;
+    color: white;
+    vertical-align: bottom;
+    border: 0.1px solid white;
+    width: 2em;
+    padding: 1em;
+}
+
+td {
+    text-align: center;
+    padding: 1em;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+    border-top: 2px solid rgb(220, 220, 220);
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+
+table tr:last-child {
+    border-bottom: 3px solid #3466cb;
+}
+
+/* FORM */
+
+form {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-bottom: 1.5px dashed gray;
+    font-size: 0.8em;
+    padding-left: 7px;
+}
+
+button {
+    background-color: #3466cb;
+    color: white;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    width: 4rem;
+    height: 28px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside {
+    margin: 0;
+}
+
+aside div {
+    background-color: rgb(220, 220, 220);
+    margin: 1rem 0;
+    padding: 1rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: solid 2px rgb(202, 202, 202);
+}
+
+aside h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 2.4rem 0 2rem 0;
+}
+
+.data {
+    text-align: right;
+}
+
+aside p i {
+    color: black;
+    margin: 0;
+}
+
+aside p {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+aside a {
+    font-size: 1.1rem;
+}
+
+/* FOOTER */
+
+footer {
+    background: rgb(0,85,102);
+    background: linear-gradient(180deg, rgba(0,85,102,1) 43%, rgba(43,53,56,1) 100%);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 1rem;
+}
+
+footer address {
+    padding: 0 0.5rem 2rem 0.5rem;
+}
+
+footer a {
+    color: #ff00fd;
+}
