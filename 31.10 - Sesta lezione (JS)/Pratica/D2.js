@@ -184,12 +184,12 @@ console.log ("Il numero fornito " + numver + " è: " + ver);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let val = 7
-if (val < 10) {
+if (val < 5) {
+  console.log("Meno di 5");
+  } else if (val < 10) {
     console.log("Meno di 10");
-  } else if (val == 10) {
-    console.log("Uguale a 10");
   } else {
-    console.log("Più di 10");
+    console.log("Uguale a 10 o maggiore");
   }
 
 /* ESERCIZIO 11
