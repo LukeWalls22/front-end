@@ -50,7 +50,7 @@ animali.shift(); // Elimina e restituisce l'elemento in testa in un Array.
 
 animali.splice(1); // Elimina e restituisce l'elemento corrispondente alla posizione nell'Array indicata.
 animali.splice(1, 3) // Elimina e restituisce più elementi a partire dalla posizione 1 alla posizione 3. (Posizione di partenza, Posizione di fine)
-animali.splice(1,2, "Colibri") // Elimina e restituisce più elementi a partire dalla posizione 1 alla posizione 2 E aggiunge tra gli spazi ora vuoti i nuovi valori dati (in questo caso "Colibri").
+animali.splice(1,2, "Colibri") // Elimina e restituisce più elementi - (Posizione di partenza, quanti elementi cancellare a partire dalla posizione data, inserisci/sostituisci con questo elemento a partire dalla posizione data).
 animali.splice(1,0, "Anatra") // Aggiunge un nuovo elemento tra gli spazi selezionati.
 
 animali.sort() // Riordina gli elementi degli Array in ordine alfabetico o numerico.
