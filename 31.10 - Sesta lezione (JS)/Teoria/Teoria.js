@@ -44,8 +44,9 @@ console.log(animali.length) //Mi dice la lunghezza dell'Array.
 
 animali.push("Colomba"); //Aggiunge un valore all'Array mettendolo in coda.
 animali.unshift("Serpente"); //Aggiunge un valore all'Array mettendolo in testa.
+animali[0].toUpperCase  //Trasforma tutte le lettere all'indice indicato in maiuscole.
 
-animali.pop(); // Elimina e restituisce l'elemento in coda in un Array (Per restituire si intende che sebbene lo abbia tolto dall'Array, io posso ancora richiamare quel valore fuori dall'Array).
+animali.pop(); // Elimina e restituisce l'elemento in coda in un Array.
 animali.shift(); // Elimina e restituisce l'elemento in testa in un Array.
 
 animali.splice(1); // Elimina e restituisce l'elemento corrispondente alla posizione nell'Array indicata.
