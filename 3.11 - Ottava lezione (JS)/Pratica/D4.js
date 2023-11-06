@@ -199,7 +199,7 @@ cutString("Ciao io studio con EPICODE")
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 function giveMeRandom (n) {
-    n = [Math.random()*10];
+    n = [Math.floor(Math.random()*11), Math.floor(Math.random()*11), Math.floor(Math.random()*11), Math.floor(Math.random()*11)];
     console.log (n);
 }
 

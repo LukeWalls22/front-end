@@ -8,9 +8,12 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let numrnd = [Math.floor(Math.random()*15), Math.floor(Math.random()*20), Math.floor(Math.random()*6)];
+function giveMeRandom (n) {
+    n = [Math.floor(Math.random()*11), Math.floor(Math.random()*11), Math.floor(Math.random()*11), Math.floor(Math.random()*11)];
+    return n;
+}
 
-console.log(numrnd);
+let numrnd = giveMeRandom(5);
 
 function checkArray (x) {
     let arrsum = [];
