@@ -1,0 +1,29 @@
+html {
+    background-color: #0E0B1D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.color-epic {
+    color: #A9409F;
+}
+
+.container {
+    padding: 1em;
+}
+
+.day {
+    display: inline-block;
+    width: 10.6%;
+    padding: 0.5em;
+}
+
+.selected {
+    background-color: rgb(136, 81, 130);
+}
+

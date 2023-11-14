@@ -1,0 +1,20 @@
+#title {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin: 0 20vw 0 20vw;
+}
+
+tr {
+    width: 10vh;
+    height: 10vh;
+    padding: 6vh 3vh 0 3vh;
+    display: inline-block;
+    border:1px solid black;
+}
+
+#estrattore {
+    text-align: center;
+}
