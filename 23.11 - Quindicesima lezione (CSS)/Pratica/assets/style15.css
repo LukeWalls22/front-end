@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #742305;
+}
+
+header {
+    background-color: #fef7e2;
+    padding: 0.5rem 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#logobtn {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+#logobtn img {
+    width: 40px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+li {
+    text-align: center;
+    background-color: #f7d67d;
+    color: #742305;
+    font-weight: 600;
+    border: none;
+    border-radius: 60px;
+    list-style-type: none;
+}
+
+.menu:nth-of-type(1) { order: 3; }
+.menu:nth-of-type(2) { order: 1; }
+.menu:nth-of-type(3) { order: 2; }
+.menu:nth-of-type(4) { order: 4; }
+.menu:nth-of-type(5) { order: 5; }
+
+article img {
+    width: 100%;
+    height: auto;
+}
