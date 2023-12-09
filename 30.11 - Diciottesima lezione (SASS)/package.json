@@ -1,0 +1,14 @@
+{
+  "name": "primaprovasass",
+  "version": "1.0.0",
+  "description": "prima prova in Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Luca Di Muro",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}

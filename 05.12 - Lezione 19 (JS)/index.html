@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="px-5">
+
+    <h1 class="text-center">Anagrafe Animali</h1>
+
+    <form class="w-50">
+        <div class="mb-3">
+          <label class="form-label">Nome animale</label>
+          <input type="input" class="form-control" id="petNameInput">
+          <div id="nameHelp" class="form-text">Inserisci il nome del tuo animale</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Nome Padrone</label>
+          <input type="input" class="form-control" id="putOwnerInput">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Specie</label>
+            <input type="input" class="form-control" id="putOwnerInput">
+          </div>
+        <div class="mb-3">
+            <label class="form-label">Razza</label>
+            <input type="input" class="form-control" id="putOwnerInput">
+          </div>
+        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+    </form>
+
+    <div class="container border border-dark mt-5" id="elenco">
+        <div class="row">
+            <div class="col">
+                <h2>Elenco animali iscritti</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center border border-dark">Nome Registrato</div>
+            <div class="col text-center border border-dark">Nome Padrone</div>
+            <div class="col text-center border border-dark">Specie</div>
+            <div class="col text-center border border-dark">Razza</div>
+        </div>
+        <div class="row mt-3">
+            <div class="col" id="prova"></div>
+            <div class="col">Prova</div>
+            <div class="col">Prova</div>
+            <div class="col">Prova</div>
+        </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
