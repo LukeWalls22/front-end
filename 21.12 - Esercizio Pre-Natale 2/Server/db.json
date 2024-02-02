@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "email": "pippo@disney.com",
+      "password": "$2a$10$FLcFL10F4SVQuv38Uqp7fus98iA.cI/NbChIw82dsq9pXdk.SvVl.",
+      "firstName": "Mario",
+      "lastName": "Rossi",
+      "city": "Roma",
+      "id": 1
+    },
+    {
+      "email": "paperino@disney.com",
+      "password": "$2a$10$9ZXgIWwdoiq3ZHUKSjkRT.TWnS4a/RP9TgQ9f6ncvMpRNkGoGxv9i",
+      "firstName": "Carlo",
+      "lastName": "Bianchi",
+      "city": "Napoli",
+      "id": 2
+    },
+    {
+      "email": "topolino@disney.com",
+      "password": "$2a$10$C8Jqmd.VXdGW7Li72AAP/.HL10AT4xiBLL.6r0gT5QOetEkY5me..",
+      "firstName": "Nicola",
+      "lastName": "Palmieri",
+      "city": "Milano",
+      "id": 3
+    },
+    {
+      "email": "fra_gallo@tiscali.it",
+      "password": "$2a$10$J1hqYKkmJ2qFKjqZbJBPveurQv6MYduQeW8lrkCSfXP4hsc9LLf3e",
+      "firstName": "Francesca",
+      "lastName": "Gallo",
+      "city": "Salerno",
+      "id": 4
+    }
+  ],
+  "products": []
+}

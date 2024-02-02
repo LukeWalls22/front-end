@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "pippo@disney.com",
+      "password": "$2a$10$9TuLoZB3cFaKvEVpZ/ICzORqp.1W4.XcivQ7/9SB8hRMyl2nCWURe",
+      "id": 1
+    },
+    {
+      "email": "paperino@disney.com",
+      "password": "$2a$10$JYs2kCzqXCklTsCLLAQeeuTSk6fAZM8a/Q7ZGbnETCsqqHIWTZ2Y.",
+      "id": 2
+    },
+    {
+      "email": "topolino@disney.com",
+      "password": "$2a$10$03f3BGzqvZmFOORGNsm5sO2/qMecubzZJDPY81VPuQ/RWp0sLT77S",
+      "id": 3
+    }
+  ]
+}
